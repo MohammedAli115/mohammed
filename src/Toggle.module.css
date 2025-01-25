@@ -1,0 +1,50 @@
+/* From Uiverse.io by adamgiebl */
+
+.toggle {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 4px;
+    border: 3px solid #f55e07;
+    border-radius: 10px;
+    margin: 0 5px;
+    position: relative;
+    box-shadow: 0 2px 10px #00000029, 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #f55e07;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+.toggle:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #f55e07;
+    background-position: left center;
+    z-index: -1;
+}
+
+.toggle:hover,
+.toggle:focus {
+    color: white;
+}
+
+.toggle:hover:before,
+.toggle:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.toggle:active {
+    transform: scale(0.9);
+}

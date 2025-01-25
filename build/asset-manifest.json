@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7739e7e.css",
+    "main.js": "/static/js/main.8f511ffc.js",
+    "static/js/488.e22580f1.chunk.js": "/static/js/488.e22580f1.chunk.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/kasper.jpg": "/static/media/kasper.282477c59a59a6899880.jpg",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/photo.jpg": "/static/media/photo.d4d632568200ecacc2e5.jpg",
+    "static/media/moso.jpg": "/static/media/moso.0b21419304b0cbd2e201.jpg",
+    "static/media/Lighten Online Shop.jpg": "/static/media/Lighten Online Shop.cd56dafda7d503b47d05.jpg",
+    "static/media/dozecafe.jpg": "/static/media/dozecafe.400377566ef9a92fac6f.jpg",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/salient.jpg": "/static/media/salient.9f4d4c020cd1ba158b84.jpg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/css1.jpg": "/static/media/css1.77868bd998a5a372f9c8.jpg",
+    "static/media/react1.jpg": "/static/media/react1.dfbb57e3576d6460d1d8.jpg",
+    "static/media/githaub.jpg": "/static/media/githaub.da94ec526f8916d64e26.jpg",
+    "static/media/git.jpg": "/static/media/git.7a998f957f977bfb19ef.jpg",
+    "static/media/html1.jpg": "/static/media/html1.7b39e482f43366d1f37f.jpg",
+    "static/media/redux.jpg": "/static/media/redux.671b9e544edb17e6826a.jpg",
+    "static/media/bootstrap.jpg": "/static/media/bootstrap.281e0b8d0aa1f7cfabcd.jpg",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/index.html",
+    "main.e7739e7e.css.map": "/static/css/main.e7739e7e.css.map",
+    "main.8f511ffc.js.map": "/static/js/main.8f511ffc.js.map",
+    "488.e22580f1.chunk.js.map": "/static/js/488.e22580f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7739e7e.css",
+    "static/js/main.8f511ffc.js"
+  ]
+}
