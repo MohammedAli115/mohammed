@@ -18,7 +18,7 @@ export default function Toggle() {
                     </Link>
                     <Link to="Resume" className=''>
                         <i className="fa-solid fa-laptop-code"></i>
-                        Resume
+                        <span>Resume</span>
                     </Link>
                     <Link to="portfolio" className=''>
                         <i className="fa-solid fa-folder-open"></i>
@@ -26,7 +26,7 @@ export default function Toggle() {
                     </Link>
                     <Link to="Contact" className=''>
                         <i className="fa-solid fa-phone"></i>
-                        Contact
+                        <span>Contact</span>
                     </Link>
                 </div>
             </div>
