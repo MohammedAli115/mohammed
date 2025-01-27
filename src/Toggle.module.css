@@ -1,21 +1,20 @@
-/* From Uiverse.io by adamgiebl */
-
 .toggle {
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
     padding: 6px 4px;
-    border: 3px solid #f55e07;
-    border-radius: 10px;
+    border: 1.5px solid #f55e07;
+    border-radius: 5px;
     margin: 0 5px;
     position: relative;
     box-shadow: 0 2px 10px #00000029, 0 3px 6px rgba(0, 0, 0, 0.1);
     color: #f55e07;
     text-decoration: none;
-    transition: 0.3s ease all;
+    transition: 0.1s ease all;
     z-index: 1;
+    overflow: hidden;
 }
 
 .toggle:before {
@@ -47,4 +46,40 @@
 
 .toggle:active {
     transform: scale(0.9);
+}
+
+/* toggle in mobile */
+.mobile  {
+    display: flex;
+    background-color: #eee;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-around;
+    width: 100%;
+    z-index: 999;
+    padding: 8px 0 4px;
+}
+.mobile i  {
+    color: #3e1f0cfd;
+    font-size: 20px;
+}
+.mobile a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:8px 4px;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    transition: .3s;
+}
+.mobile a:hover {
+    background-color: #f55e0780;
+    color: #eee;
+}
+.mobile a:hover i {
+    color: #000000;
 }
