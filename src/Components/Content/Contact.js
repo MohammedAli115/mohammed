@@ -46,39 +46,35 @@ export default function Contact() {
             exit={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.5 }}>
             <h3 className="mb-3 fs-2">CONTACT US</h3>
-            <div className="icons mb-1 d-flex justify-content-center py-1 my-2 rounded-3">
-                <a rel="noreferrer" target="_blank" href="mailto:mohamedalihasan15@gmail.com"><i className="fa-solid fa-envelope fs-1 py-2 mx-4" style={{ color: "red" }}></i></a>
-                <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/mohammed-ali-914862223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i className="fa-brands fa-linkedin fs-1 mx-4 py-2 text-primary"></i></a>
-                <a rel="noreferrer" target="_blank" href="https://wa.me/201020862114"><i className="fa-brands fa-square-whatsapp fs-1 mx-4 py-2 text-success"></i></a>
-                <a rel="noreferrer" target="_blank" href="https://github.com/MohammedAli115"><i className="fa-brands fa-github fs-1 py-2 mx-4 text-dark"></i></a>
-            </div>
-            <form onSubmit={sendEmail} className="p-4" style={{ backgroundColor: "#f8f9fa", borderRadius: "8px" }}>
+            <form onSubmit={sendEmail} className="p-4 mt-4" style={{ backgroundColor: "#f8f9fa", borderRadius: "8px" }}>
         
-                <div className="mb-3 d-flex">
-                    <input
-                        type="text"
-                        aria-label="Username" aria-describedby="basic-addon1"
-                        name="user_name"
-                        id="user_name"
-                        className="form-control"
-                        placeholder="Enter your name"
-                        value={formData.user_name}
-                        onChange={handleChange}
-                        required
-                    />
-                </div>
+                <div className="row">
+                    <div className="mb-3 d-flex col-lg-6">
+                        <input
+                            type="text"
+                            aria-label="Username" aria-describedby="basic-addon1"
+                            name="user_name"
+                            id="user_name"
+                            className="form-control "
+                            placeholder="Enter your name"
+                            value={formData.user_name}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
         
-                <div className="mb-3">
-                    <input
-                        type="email"
-                        name="user_email"
-                        id="user_email"
-                        className="form-control"
-                        placeholder="Enter your email"
-                        value={formData.user_email}
-                        onChange={handleChange}
-                        required
-                    />
+                    <div className="mb-3 col-lg-6">
+                        <input
+                            type="email"
+                            name="user_email"
+                            id="user_email"
+                            className="form-control"
+                            placeholder="Enter your email"
+                            value={formData.user_email}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
                 </div>
     
                 <div className="mb-3">
@@ -95,11 +91,17 @@ export default function Contact() {
                 </div>
 
                 <div className="text-center">
-                    <button style={{ backgroundColor: "#ed7732", letterSpacing: "1.7px" }} type="submit" className="btn fs-5 px-4 text-white">
+                    <button style={{ backgroundColor: "#ed7732", letterSpacing: "1.7px" }} type="submit" className="btn fs-5 px-4 mt-3 text-white">
                         Send
                     </button>
                 </div>
             </form>
+            <div className="icons mb-1 d-flex justify-content-center py-3 my-4 rounded-3">
+                <a rel="noreferrer" target="_blank" href="mailto:mohamedalihasan15@gmail.com"><i className="fa-solid fa-envelope fs-1 py-2 mx-4" style={{ color: "red" }}></i></a>
+                <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/mohammed-ali-914862223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i className="fa-brands fa-linkedin fs-1 mx-4 py-2 text-primary"></i></a>
+                <a rel="noreferrer" target="_blank" href="https://wa.me/201020862114"><i className="fa-brands fa-square-whatsapp fs-1 mx-4 py-2 text-success"></i></a>
+                <a rel="noreferrer" target="_blank" href="https://github.com/MohammedAli115"><i className="fa-brands fa-github fs-1 py-2 mx-4 text-dark"></i></a>
+            </div>
         </motion.div>
     );
 }

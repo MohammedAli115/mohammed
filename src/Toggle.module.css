@@ -52,36 +52,34 @@
 .mobile  {
     display: flex;
     background-color: #ffffff;
-    background-color: #f55e07;
+    background-color: #fffffff2;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     justify-content: space-around;
     width: 100%;
     z-index: 999;
-    padding: 0px 0 px;
+    padding: 0px 0px;
     margin-top: 50px;
+    box-shadow: 0 0 10px #ccc;
 }
 .mobile i  {
-    color: #3e1f0cfd;
+    color: #000000fd;
     font-size: 20px;
+    transition: .3s;
 }
 .mobile a {
     text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:8px 4px;
+    padding:5px 4px;
     border-radius: 5px;
     color: black;
     font-size: 18px;
     transition: .3s;
 }
 .mobile a:hover {
-    background-color: #f55e0780;
-    color: #eee;
-}
-.mobile a:hover i {
-    color: #000000;
+    background-color: #f55e07e5;
 }

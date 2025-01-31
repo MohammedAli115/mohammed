@@ -25,7 +25,6 @@ export default function DownloadBtn() {
                 </svg>
                 <span className={styleBtn.button__text}>Download Cv</span>
             </a>
-
         </div>
     );
 }
