@@ -1,19 +1,16 @@
 
-// import img from './images/photo.jpg'
 import PersonalData from './PersonalData';
-
 
 export default function Data() {
     return (
         <div>
-
             <button
-                className="btn text-white fs-5 d-md-none mb-3"
+                className="btn text-body fs-5 d-md-none "
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#responsiveOffcanvas"
                 aria-controls="responsiveOffcanvas"
-                style={{backgroundColor :"#ea7b3f"}}
+                style={{backgroundColor :"rgb(234 123 63 / 1%)", position : "absolute" ,top :"18px", right : "80px"}}
             >
                 <i className="fa-solid fa-bars"></i>
             </button>
@@ -27,16 +24,17 @@ export default function Data() {
             >
                 <div className="offcanvas-header">
                     <button
+                        style={{position : "absolute", top :"15px", right :"15px"}}
                         type="button"
-                        className="btn-close text-reset"
+                        className='fs-3 text-danger border-0 '
                         data-bs-dismiss="offcanvas"
                         aria-label="إغلاق"
-                    ></button>
+                        
+                    ><i className="fa-solid fa-arrow-left-long"></i></button>
                 </div>
                     <PersonalData />
             </div>
 
-            {/* محتوى يظهر مباشرةً على الشاشات المتوسطة فما فوق */}
             <div className="d-none d-md-block">
                 <PersonalData />
             </div>

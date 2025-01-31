@@ -22,10 +22,10 @@ const images = [
 
 export default function Resume() {
     return (
-        <motion.div
-            initial={{ opacity: 0, x: 100 }}
+        <motion.div className='overflow-hidden'
+            initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -100 }}
+            exit={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.5 }}>
             <h2 className='fs-2 py-2'>RESUME</h2>
             <p className='fs-6 bg-light p-2 rounded-3' style={{ width: "fit-content" }}>Work Skills</p>

@@ -10,7 +10,7 @@ export default function Toggle() {
                 <Link to="Contact" className={style.toggle}> Contact</Link>
             </div>
             
-            <div className='d-flex d-sm-none justify-content-between '>
+            <div className='d-flex d-sm-none justify-content-between'>
                 <div className={style.mobile}>
                     <Link to='/'>
                         <i className="fa-solid fa-house"></i>

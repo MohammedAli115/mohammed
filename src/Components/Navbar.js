@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import style from '../swich.module.css'
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light container pt-3" >
+        <nav className="navbar  navbar-expand-lg navbar-light container pt-3" >
             <div className="container">
-                <Link className={style.name}>Mohammed <span>Ali</span></Link>
+                <Link  className={style.name}> <span><i className="fa-solid fa-code"></i></span></Link>
                 <div>
                     <div>
                         <label className={style.switch} htmlFor="switch">
@@ -25,7 +25,6 @@ export default function Navbar() {
                             </div>
                         </label>
                     </div>
-
                 </div>
             </div>
         </nav>

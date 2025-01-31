@@ -36,21 +36,21 @@ export default function Contact() {
                 }
             );
 
-        e.target.reset(); // لتفريغ الحقول بعد الإرسال
+        e.target.reset();
     };
 
     return (
-        <motion.div className="container"
-            initial={{ opacity: 0, x: 100 }}
+        <motion.div className="container overflow-hidden"
+            initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -100 }}
-            transition={{ duration: 0.3 }}>
+            exit={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}>
             <h3 className="mb-3 fs-2">CONTACT US</h3>
             <div className="icons mb-1 d-flex justify-content-center py-1 my-2 rounded-3">
-                <a rel="noopener norefrrer" target="_blank" href="mailto:mohamedalihasan15@gmail.com"><i className="fa-solid fa-envelope fs-1 py-2 mx-4" style={{ color: "red" }}></i></a>
-                <a rel="noopener norefrrer" target="_blank" href="https://www.linkedin.com/in/mohammed-ali-914862223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i className="fa-brands fa-linkedin fs-1 mx-4 py-2 text-primary"></i></a>
-                <a rel="noopener norefrrer" target="_blank" href="https://wa.me/201020862114"><i className="fa-brands fa-square-whatsapp fs-1 mx-4 py-2 text-success"></i></a>
-                <a rel="noopener norefrrer" target="_blank" href="https://github.com/MohammedAli115"><i className="fa-brands fa-github fs-1 py-2 mx-4 text-dark"></i></a>
+                <a rel="noreferrer" target="_blank" href="mailto:mohamedalihasan15@gmail.com"><i className="fa-solid fa-envelope fs-1 py-2 mx-4" style={{ color: "red" }}></i></a>
+                <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/mohammed-ali-914862223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i className="fa-brands fa-linkedin fs-1 mx-4 py-2 text-primary"></i></a>
+                <a rel="noreferrer" target="_blank" href="https://wa.me/201020862114"><i className="fa-brands fa-square-whatsapp fs-1 mx-4 py-2 text-success"></i></a>
+                <a rel="noreferrer" target="_blank" href="https://github.com/MohammedAli115"><i className="fa-brands fa-github fs-1 py-2 mx-4 text-dark"></i></a>
             </div>
             <form onSubmit={sendEmail} className="p-4" style={{ backgroundColor: "#f8f9fa", borderRadius: "8px" }}>
         
